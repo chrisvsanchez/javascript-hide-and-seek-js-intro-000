@@ -11,11 +11,11 @@ function deepestChild(){
   return deepest[deepest.length-1];
 }
 
-function increasedRankBy(n){
+function increaseRankBy(n){
   const upRank = document.getElementById('app').querySelectorAll('ul.ranked-list')
-  
+
   for (let i = 0; i < upRank.length; i++){
-    upRank[i].innerHTML = (parseInt(upRank[i].innerHTML) + n)
-  }
-  
+    upRank[i].innerHTML = ((parseInt(upRank[i].innerHTML)) + n)
+    }
+
 }
