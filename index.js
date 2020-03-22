@@ -1,1 +1,1 @@
-
+funciton getFirstSelector(selector)
