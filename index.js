@@ -12,5 +12,5 @@ function deepestChild(){
 }
 
 function increasedRankBy(n){
-  const upRank = document.getElementById('app').querySelectorAll('ul.ranked-')
+  const upRank = document.getElementById('app').querySelectorAll('ul.ranked-list')
 }
